@@ -93,6 +93,13 @@ When the push command completes, Pantheon instantly deploys the changes to your 
 
 Go back to your site's Dev tab in Pantheon, click the URL under "Development site", and browse to your changes.
 
+### Importing existing repo to Pantheon
+
+1) Clone the Pantheon repository locally
+2) Add the existing repository as an additional remote
+3) Merge the master branch of the existing repository, now the additional remote, with the master branch of the Pantheon repository
+4) Optionally repeat for any additional branches besides master
+
 ## Troubleshooting
 
 ### Git Connection is Slow
